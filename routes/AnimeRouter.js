@@ -7,7 +7,7 @@ Router.post("/info", AnimeController.animeInfo);
 
 Router.post("/episode", AnimeController.animeEpisode);
 
-Route.get("/test" , (req , res) => {
+Router.get("/test" , (req , res) => {
   res.send(`Hello World`)
 })
 
